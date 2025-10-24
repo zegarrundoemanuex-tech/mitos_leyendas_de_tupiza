@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Historias y Relatos de Tupiza</title>
+  <!-- Enlace al archivo CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <button onclick="saludar()">Haz clic aquí</button>
+
+  <!-- Enlace al archivo JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+
+  <style>
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #fffaf0;
+      color: #333;
+    }
+
+    header {
+      background-color: #fcd5ce;
+      display: flex;
+      align-items: center;
+      padding: 10px 30px;
+    }
+
+    header img {
+      height: 100px;
+      margin-right: 45px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 26px;
+      color: #6d4c41;
+    }
+
+    nav {
+      background-color: #ffe5b4;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 10px;
+    }
+
+    nav a {
+      margin: 8px 15px;
+      text-decoration: none;
+      color: #5d4037;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    .inicio {
+      background-image: url('https://via.placeholder.com/1200x400');
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+    }
+
+    .inicio h3 {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .seccion {
+      margin-top: 50px;
+    }
+
+    .seccion h2 {
+      text-align: center;
+      color: #6a4e42;
+    }
+
+    .grid {
+      display: grid;
+      gap: 20px;
+    }
+
+    .mitos {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .relatos {
+      grid-template-columns: repeat(6, 1fr);
+    }
+
+    .galeria {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .card {
+      background-color: #ffeef2;
+      padding: 10px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .card button {
+      margin-top: 10px;
+      padding: 8px 12px;
+      background-color: #ffc8dd;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .historias-content {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .historias-content img {
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+
+    .reseñas-form {
+      max-width: 500px;
+      margin: 0 auto;
+      background-color: #f8edeb;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .reseñas-form textarea {
+      width: 100%;
+      height: 100px;
+      margin-bottom: 10px;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .reseñas-form input[type="submit"] {
+      padding: 10px 20px;
+      background-color: #d8e2dc;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #fcd5ce;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="imagenes/2.jpg" alt="Logo">
+    <h1>Historias y Relatos de Tupiza</h1>
+  </header>
+
+  <nav>
+    <a href="#inicio">INICIO</a>
+    <a href="#mitos">MITOS</a>
+    <a href="#historia de tupiza">HISTORIA DE TUPIZA</a>
+    <a href="#leyendas">LEYENDAS</a>
+    <a href="#reseñas">RESEÑAS</a>
+    <a href="#galeria">GALERÍA</a>
+  </nav>
+
+  <main>
+
+    <!-- INICIO -->
+    <section id="inicio" class="inicio">
+      <h3><em><center>Bienvenidos a una travesía por los mitos y leyendas que forman la esencia de Tupiza.<center/></h3>
+    </section>
+    <h1>Bienvenido a mi página web.</h1><p><em>
+
+Aquí encontrarás un recorrido fascinante por los mitos, relatos, historias y tradiciones de Tupiza, una tierra rica en cultura, leyendas y paisajes únicos. Este espacio ha sido creado con el propósito de preservar y compartir el legado oral y visual de nuestro pueblo, rescatando las voces del pasado que aún resuenan en cada rincón de nuestra tierra.
+
+Ya seas visitante, curioso o parte de nuestra comunidad, te invito a explorar cada sección, disfrutar de las imágenes, leer los relatos populares y participar activamente dejando tus comentarios y conocimientos.
+Gracias por ser parte de este viaje cultural por el corazón de Tupiza.
+</p>
+
+    <!-- MITOS -->
+    <section id="mitos" class="seccion">
+      <h2>Mitos de Tupiza</h2>
+      <div class="grid mitos">
+        <!-- 9 tarjetas de mitos -->
+        <!-- Puedes duplicar este bloque 9 veces cambiando el contenido -->
+        <div class="card">
+  <img src="imagenes/andres.jpg">
+  <h3>LA SOMBRA DEL COLEGIO ANDRÉS DE SANTA CRUZ</h3>
+  <p>Antes que se construyera el colegio Andrés de Santa Cruz, era un cementerio con un ambiente pesado y prefirieron retirar ese cementerio y construir un colegio en esta obra los Padres de Familia ayudaron a construir este colegio y así con la ayuda lograron acabar más rápido la construcción. </p>
+
+  <!-- contenido oculto -->
+
+
+ <a href="cuentos/cuento.html">VER MAS</a>
+</div>
+
+        <div class="card">
+          <img src="imagenes/diablo.jpg" alt="Mito 2">
+          <h3>DONDE EL DIABLO PERDIÓ EL PONCHO</h3>
+          <p>Lorenzo, era un típico paisano Chicheño, agricultor como todos, o minero algunas veces, tenía la prestancia que le daba el sombrero alón de Chichas y las abarcas inseparables de esos pies curtidos por las largas caminatas. Precisamente volvía de Suipacha, el vallecito aledaño a Tupiza, donde vivía su bella novia Primitiva, más conocida como “Primi”.</p>
+          <a href="cuentos/mito2.html">VER MAS</a>
+        </div>
+        <div class="card">
+          <img src="imagenes/due.jpg" alt="Mito 3">
+          <h3>El Duende del Colegio Suipacha</h3>
+          <p>El portero del Colegio Nacional Suipacha de Tupiza, encargado de la limpieza, ordenamiento de pupitres y mesas de aulas; era una rutina que se cumplía al finalizar el día.</p>
+          <a href="cuentos/mito3.html">VER MAS</a>
+        </div>
+        <!-- Continúa con 6 tarjetas más -->
+        <div class="card">
+          <img src="imagenes/molle.jpg">
+          <h3>El Viejo Molle</h3>
+          <p>Las parejas que tienen una tradición que muy pocos la conocen en Tupiza de hoy; si nos remontamos más o menos a dos centurias del pasado, debemos decir que en ese lugar existía mucho lodo y nuestros abuelos cuidando del buen castellano que usaban, denominaron al lugar como “El Lamedal”, de donde deriva la palabra “La Lameda”.</p>
+          <a href="cuentos/mito4.html">VER MAS</a>
+        </div>
+        <div class="card">
+          <img src="imagenes/pro.jpg">
+          <h3>El espíritu protector de los Cerros Colorados</h3>
+          <p>La Montaña Colorada es un emblemático paisaje natural ubicado cerca de Tupiza conocido por su asombrosa variedad de tonalidades rojizas. Sin embargo, detrás de su impresionante apariencia se encuentra una leyenda fascinante sobre el espíritu protector que habita en sus tierras.</p>
+          <a href="cuentos/mito5.html">VER MAS</a>
+        </div>
+        <div class="card">
+          <img src="imagenes/peña.jpg">
+          <h3>El Peñasco de Tambillo Bajo</h3>
+          <p>A los extremos del anchuroso Río Tupiza, que corre con gran presión de norte a sur, exactamente a los cinco kilómetros de Tupiza, se extienden los campos de sembradío de los pobladores de Tambillo Bajo en medio de un paisaje maravilloso que agrada a los visitantes. En ese panorama lleno de verdor, pasa la línea del ferrocarril (antes Villa Atocha) y todos los días corren los trenes como boas pesadas, pujando y sacudiendo la tierra.</p>
+          <a href="cuentos/mito6.html">VER MAS</a>
+        </div>
+    </section>
+
+    <!-- HISTORIAS -->
+    <section id="historia de tupiza" class="seccion">
+      <h2>Historia de Tupiza</h2>
+      <p>Antes de seguir hablando de leyendas o mitos hablaremos de Tupiza la Joya bella de Bolivia y todo empieza entre 1535 y enero de 1536, tuvo la presencia de españoles, que lo usaron como base de aprovisionamiento para la expedición de Diego de Almagro a Chile.[3]​ No se sabe si la población fue creada o fundada por el propio Almagro o por su adelantado Juan de Saavedra, jefe de una partida exploratoria, de ser cierta esta creencia, Tupiza sería junto con Paria (fundada en las mismas circunstancias) la ciudad española más antigua de Bolivia, y la segunda más antigua no fundada por los españoles.
+
+Esto se refrendaría en la existencia de registros notariales que nombran a españoles como vecinos de Tupiza ya en 1539, el mismo año de la fundación de Chuquisaca. En 1542 Tupiza y el resto de la región pasó a formar parte del Virreinato del Perú.
+
+En otra versión se presumía que Tupiza fue fundada el 4 de junio de 1574 por Luis de Fuentes y Vargas, quien se encaminaba por el valle a establecer la Villa de Tarija,[4]​ aunque esto sería desmentido debido a documentos de fechas anteriores a la mencionada, donde se menciona a un pueblo con el nombre de Tupiza, Topeza, Topisa o Tupica.[5]​ Desde 1776, la actual región de Sud Chichas y el este de Sud Lípez formaban parte del Virreinato del Río de la Plata.
+
+El 7 de noviembre de 1810, a 25 km al sur de la ciudad, se libró la Batalla de Suipacha en la localidad homónima, en la cual participaron los ejércitos patriotas remitidos por la Primera Junta de Buenos Aires, bajo el mando del general Balcarce, el vocal Juan José Castelli, el mayor Díaz Vélez y del caudillo chicheño coronel Pedro Arraya. En territorio de los Chichas se consiguió el primer triunfo de las armas patriotas por la independencia del Alto Perú, hoy Bolivia, gracias a la participación de platenses, cinteños, tarijeños y, sobre todo, de la decisiva participación de los centauros chicheños. En mérito a esta gloriosa batalla, la Junta de Buenos Aires dispuso que los combatientes llevaran un distintivo con la inscripción: "LA PATRIA A LOS VENCEDORES DE TUPIZA". </p>
+      <center><img src="imagenes/tu.jpg"  whidth="300" height="200"></center>
+      </div>
+    </section>
+
+    <!-- RELATOS -->
+    <section id="leyendas" class="seccion">
+      <h2>Leyendas</h2>
+      <div class="grid leyendas">
+        <!-- 18 tarjetas -->
+        <!-- Puedes usar un bucle si estuvieras en un framework, aquí lo escribimos manualmente -->
+        <!-- Solo se muestra una fila como ejemplo -->
+        <div class="card">
+          <img src="imagenes/cho.jpg">
+          <h3>El Féretro de Gran Chocaya</h3>
+          <p>A manera de introducción conviene aclarar que Gran Chocaya, se encuentra ubicada a 3 kilómetros de Animas (nombre que proviene de almas del purgatorio), que fue asiento minero de gran importancia que a la larga perteneció al Cuarto grupo de la COMIBOL.
+
+Como nadie ignora, con la llegada de los españoles se construyeron iglesias para adorar a Dios, de esa manera edificaron en aquel lugar una iglesia y lo dotaron de un féretro para trasladar a los muertos al camposanto.
+</p>
+          <a href="leyendas/ley1.html">VER MAS</a>
+        </div>
+        <div class="card">
+          <img src="imagenes/amor.jpg">
+          <h3>El Diablo se Enamoró</h3>
+          <p>Érase una vez, hace muchos años cuando ya había sido creado nuestro pueblito encantado Tupiza, donde nace la valentía del poncho rojo, donde nacen las mujeres hermosas y encantadoras. Tierra majestuosa creada por nuestros antepasados habitada por personas aguerridas.
+Pero aunque no lo crean los habitantes tenían muchos problemas. Una tarde se encontraba Marcelina una jovenzuela morena, con ojos redondos y negros como la uva, su cabello largo y crespo que parecían las ondas del río de Tupiza tan hermosa y deslumbrante mujer que las mismas flores envidiaban su belleza
+</p>
+          <a href="leyendas/ley2.html">VER MAS</a>
+        </div>
+        <div class="card">
+          <img src="imagenes/otra.jpg">
+          <h3>El Carretón de la Otra Vida</h3>
+          <p>Es una vieja tradición, contada noche tras noche por los papas y abuelos, se dice que ocurría su aparición una vez al mes. Al acercarse la media noche, el Carretón surgía por la antigua calle del Cementerio, hoy Chuquisaca, lentamente el carretón avanzaba por las principales calles, los ejes crujían entremezclándose con el ruido de las ruedas al rodar sobre las piedras.
+Era un carretón sin barandas, rústico, tirado por bueyes oscuros que avanzaban en señal de portar una carga pesada. La creencia popular era que se trataba de una aparición fantasmagórica, los ojos de los animales y del conductor, chispeaban, brillaban amenazantes, por lo que jamás nadie se atrevió a cruzarse en el camino del Carretón de la otra vida.</p>
+          <a href="leyendas/ley3.html">VER MAS</a>
+        </div>
+                <!-- Repite hasta completar 18 relatos -->
+      </div>
+    </section>
+
+    <!-- RESEÑAS -->
+    <section id="reseñas" class="seccion">
+      <h2>Reseñas y Comentarios</h2>
+      <div class="reseñas-form">
+        <form>
+          <label for="comentario">Escribe tu comentario:</label><br>
+          <textarea id="comentario" name="comentario" placeholder="Comparte tu experiencia..."></textarea><br>
+          <input type="submit" value="Enviar">
+        </form>
+      </div>
+    </section>
+
+    <!-- GALERÍA -->
+    <section id="galeria" class="seccion">
+      <h2>Galería de Imágenes</h2>
+      <div class="grid galeria">
+        <img src="imagenes/1.jpg" alt="Foto 1">
+        <img src="imagenes/3.jpg" alt="Foto 2">
+        <img src="imagenes/4.jpg" alt="Foto 3">
+        <img src="imagenes/5.jpg" alt="Foto 4">
+        <img src="imagenes/andres.jpg" alt="Foto 5">
+        <img src="imagenes/diablo.jpg" alt="Foto 6">
+        <img src="imagenes/pro.jpg" alt="Foto 7">
+        <img src="imagenes/tu.jpg" alt="Foto 8">
+        <img src="imagenes/peña.jpg" alt="Foto 9">
+        <img src="imagenes/a.jpg" alt="Foto 10">
+        <img src="imagenes/b.jpg" alt="Foto 11">
+        <img src="imagenes/c.jpg" alt="Foto 12">
+        <img src="imagenes/d.jpg" alt="Foto 13">
+        <img src="imagenes/f.jpg" alt="Foto 14">
+        <img src="imagenes/g.jpg" alt="Foto 15">
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Acontecimientos de Tupiza. Todos los derechos reservados.</p>
+</body>
+</html>
